@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.28)  29 SEP 2019 19:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.28)  29 SEP 2019 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**theoretical-ex.tex
-(./theoretical-ex.tex
+**efc1.tex
+(./efc1.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -230,8 +230,8 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip46
-) (./theoretical-ex.aux)
-\openout1 = `theoretical-ex.aux'.
+) (./efc1.aux)
+\openout1 = `efc1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
@@ -287,9 +287,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 28.
 LaTeX Info: Redefining \pageref on input line 28.
 LaTeX Info: Redefining \nameref on input line 28.
- (./theoretical-ex.out) (./theoretical-ex.out)
+ (./efc1.out) (./efc1.out)
 \@outlinefile=\write3
-\openout3 = `theoretical-ex.out'.
+\openout3 = `efc1.out'.
 
 <../figures/unicamp.png, id=88, 481.8pt x 481.8pt>
 File: ../figures/unicamp.png Graphic file (type png)
@@ -449,10 +449,10 @@ Package pdftex.def Info: ../figures/ex2/figure_4_predictor.png  used on input li
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 585.
  [8 <../figures/pre-ex1/figure_0_all_data.png>] [9 <../figures/pre-ex1/figure_0_kfold.png> <../figures/pre-ex1/figure_1_data_split.png> <../figures/pre-ex1/figure_2_fold_1.png> <../figures/pre-ex1/figure_3_fold_2.png> <../figures/pre-ex1/figure_4_fold_3.png> <../figures/pre-ex1/figure_5_fold_4.png> <../figures/pre-ex1/figure_6_fold_5.png> <../figures/pre-ex1/figure_7_fold_6.png> <../figures/pre-ex1/figure_8_fold_7.png> <../figures/pre-ex1/figure_9_fold_8.png>] [10 <../figures/pre-ex1/figure_10_final_training.png> <../figures/ex1/figure_1_rmse_with_k.png>] [11 <../figures/ex1/figure_2_rmse_with_k_zoom.png> <../figures/ex1/figure_3_predictor.png>] [12 <../figures/pre-ex2/figure_1_hyperbolic_tangent.png> <../figures/pre-ex2/figure_2_linear_transformation.png>] [13 <../figures/pre-ex2/figure_3_tanh_dataset.png> <../figures/ex2/figure_1_rmse_with_T.png>] [14 <../figures/ex2/figure_2__rmse_with_T_zoom.png> <../figures/ex2/figure_3_lambda_with_T.png>] [15 <../figures/ex2/figure_4_predictor.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 585.
- (./theoretical-ex.aux)
+ (./efc1.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 585.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 585.
-Package rerunfilecheck Info: File `theoretical-ex.out' has not changed.
+Package rerunfilecheck Info: File `efc1.out' has not changed.
 (rerunfilecheck)             Checksum: 56DF061FD4F358877EDC468F45B2641E;1764.
 
 
@@ -462,14 +462,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 585.
  ) 
 Here is how much of TeX's memory you used:
  7536 strings out of 492623
- 115320 string characters out of 6135669
+ 115190 string characters out of 6135669
  220838 words of memory out of 5000000
  11279 multiletter control sequences out of 15000+600000
  9800 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,40p,1319b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,40p,1309b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on theoretical-ex.pdf (15 pages, 3037822 bytes).
+Output written on efc1.pdf (15 pages, 3037822 bytes).
 PDF statistics:
  338 PDF objects out of 1000 (max. 8388607)
  253 compressed objects within 3 object streams

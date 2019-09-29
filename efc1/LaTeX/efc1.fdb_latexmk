@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1569797555 "theoretical-ex.tex" "theoretical-ex.pdf" "theoretical-ex" 1569797594
+["pdflatex"] 1569797860 "efc1.tex" "efc1.pdf" "efc1" 1569797867
   "../figures/ex1/figure_1_rmse_with_k.png" 1569670453 83947 348182e2579074a14c920bf874f37b0e ""
   "../figures/ex1/figure_2_rmse_with_k_zoom.png" 1569670453 101057 e1d1a4ce55b4b1d625466ab0131f9728 ""
   "../figures/ex1/figure_3_predictor.png" 1569670454 213291 bd93c46d13266c776748b99b1787da81 ""
@@ -102,11 +102,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1557554374 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1569676741 334148 1b9d30ff8c861d6082e3e9bfccd8d7eb ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1569676734 7979416 1a932d235e6ba6927163dbffd48f5cc5 ""
-  "theoretical-ex.aux" 1569797563 21772 f2cb17271bc1d06b1a10e098080267a8 "pdflatex"
-  "theoretical-ex.out" 1569797563 1764 56df061fd4f358877edc468f45b2641e "pdflatex"
-  "theoretical-ex.tex" 1569797573 18781 2846e66570d7d048fbe1fdf4ade4db44 ""
+  "efc1.aux" 1569797867 21772 f2cb17271bc1d06b1a10e098080267a8 "pdflatex"
+  "efc1.out" 1569797867 1764 56df061fd4f358877edc468f45b2641e "pdflatex"
+  "efc1.tex" 1569797573 18781 2846e66570d7d048fbe1fdf4ade4db44 ""
   (generated)
-  "theoretical-ex.log"
-  "theoretical-ex.aux"
-  "theoretical-ex.out"
-  "theoretical-ex.pdf"
+  "efc1.aux"
+  "efc1.out"
+  "efc1.log"
+  "efc1.pdf"

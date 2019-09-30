@@ -67,6 +67,8 @@ INPUT /usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
 INPUT efc1.aux
 INPUT efc1.aux
 OUTPUT efc1.aux
@@ -93,10 +95,12 @@ OUTPUT efc1.out
 INPUT ../figures/unicamp.png
 INPUT ../figures/unicamp.png
 INPUT ../figures/unicamp.png
-INPUT ../figures/feec.jpg
-INPUT ../figures/feec.jpg
-INPUT ../figures/feec.jpg
 INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT ../figures/feec.jpg
+INPUT ../figures/feec.jpg
+INPUT ../figures/feec.jpg
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -115,8 +119,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT ../figures/theoretical-ex/ML.png
 INPUT ../figures/theoretical-ex/ML.png
 INPUT ../figures/theoretical-ex/ML.png
@@ -173,6 +175,9 @@ INPUT ../figures/ex1/figure_2_rmse_with_k_zoom.png
 INPUT ../figures/ex1/figure_3_predictor.png
 INPUT ../figures/ex1/figure_3_predictor.png
 INPUT ../figures/ex1/figure_3_predictor.png
+INPUT ../figures/pre-ex2/figure_0_hyperbolic_tangent.png
+INPUT ../figures/pre-ex2/figure_0_hyperbolic_tangent.png
+INPUT ../figures/pre-ex2/figure_0_hyperbolic_tangent.png
 INPUT ../figures/pre-ex2/figure_1_hyperbolic_tangent.png
 INPUT ../figures/pre-ex2/figure_1_hyperbolic_tangent.png
 INPUT ../figures/pre-ex2/figure_1_hyperbolic_tangent.png
@@ -202,11 +207,13 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb

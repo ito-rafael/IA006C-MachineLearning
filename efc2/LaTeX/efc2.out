@@ -1,8 +1,8 @@
 \BOOKMARK [1][-]{section.1}{Source files}{}% 1
 \BOOKMARK [1][-]{section.2}{Part 1 - Binary Classification}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{a\) Input features characteristics analysis considering the histograms and correlation measures between them.}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{b\) }{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{c\) }{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{b\) Logistic regression, ROC and F1-score curves.}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{c\) Threshold, confusion matrix and accuracy.}{section.2}% 5
 \BOOKMARK [1][-]{section.3}{Part 2 - Multiclass Classification}{}% 6
-\BOOKMARK [2][-]{subsection.3.1}{a\) }{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{b\) }{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.1}{a\) Logistic regression \(using softmax approach\)}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{b\) K-Nearest Neighbors}{section.3}% 8

@@ -248,6 +248,9 @@ INPUT ../figures/pre-ex1/logistic_function.png
 INPUT ../figures/pre-ex1/logistic_vs_tanh.png
 INPUT ../figures/pre-ex1/logistic_vs_tanh.png
 INPUT ../figures/pre-ex1/logistic_vs_tanh.png
+INPUT ../figures/ex1/error.png
+INPUT ../figures/ex1/error.png
+INPUT ../figures/ex1/error.png
 INPUT ../figures/ex1/ROC.png
 INPUT ../figures/ex1/ROC.png
 INPUT ../figures/ex1/ROC.png
@@ -286,6 +289,7 @@ INPUT ./efc2.out
 INPUT ./efc2.out
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
@@ -293,4 +297,5 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

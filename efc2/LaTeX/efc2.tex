@@ -1,19 +1,21 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper]{article}    % define document layout
+%\documentclass[draft]{article}     % use draft option in packages
 %-----------------------------
 % preamble
 %-----------------------------
-\usepackage[sumlimits,]{amsmath}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage{graphicx}
-\usepackage{subcaption}
-\usepackage{hyperref}
-\usepackage{float}
-\usepackage{geometry}
-\geometry{a4paper, margin=1in}
-%\usepackage[document]{ragged2e}
+\usepackage[sumlimits,]{amsmath}    % math equations and formulas
+\usepackage[utf8]{inputenc}         % use UTF-8 encoding
+\usepackage[english]{babel}         % use English language
+%\usepackage{graphicx}              % insert images
+\usepackage[draft]{graphicx}        % do not render figures
+\usepackage{subcaption}             % multiple images in one figure
+\usepackage{hyperref}               % hyperlinks
+\usepackage{float}                  % floating objects (figures, tables)
+\usepackage{geometry}               % page size and margins
+\geometry{a4paper, margin=1in}      % margins
+\usepackage{ragged2e}               % text alignment
 
-\graphicspath{ 
+\graphicspath{                      % path for figures
     {../figures/} 
     {../figures/pre-ex1/} 
     {../figures/ex1/} 
@@ -45,7 +47,7 @@
 \end{figure}
 
 \title{EFC2 - Exercise 2}
-\author{Rafael Claro Ito (R.A.: 118430}
+\author{Rafael Claro Ito (R.A.: 118430)}
 %R.A.: 118430
 %ito.rafael@gmail.com
 \date{September 2019}
@@ -79,6 +81,7 @@ In this repository, one can found the following files:\\}
 \paragraph{The notebook ``efc2\_ex1\_binary\_classification'' effectively implements the logistic regression used to perform a binary classification proposed in exercise 1.}
 
 \paragraph{The notebooks ``efc2\_ex2\_multiclass\_classification'' and ``efc2\_ex2\_knn'' implements the algorithms to perform a multiclass classification proposed in exercise 2. The former one uses the softmax approach while the latter one implements the K-Nearest Neighbors (KNN) algorithm.}
+\newpage
 
 %=================================================
 \section{Part 1 - Binary Classification}
@@ -92,7 +95,7 @@ In this repository, one can found the following files:\\}
 
 % histograms of raw features
 
-\begin{figure}
+\begin{figure}{H}
     \centering
     % sd
     \begin{subfigure}{0.32\textwidth}
@@ -238,7 +241,7 @@ In this repository, one can found the following files:\\}
 
 % histograms of stardardized features
 
-\begin{figure}
+\begin{figure}{H}
     \centering
     % sd
     \begin{subfigure}{0.32\textwidth}
@@ -454,32 +457,57 @@ In this repository, one can found the following files:\\}
     \caption{Zoom in F1-score curve}
     \label{fig:ex1-f1_score_zoom}
 \end{figure}
+\newpage
 
 %=================================================
 \section{Part 2 - Multiclass Classification}
 %=================================================
 
+\paragraph{We start this exercise by performing a one-hot encoding with the data. This way we can represent the categorical variables in a binary way. This encoding is defined as follows:}
+
+\medskip
+\begin{center}
+    \begin{minipage}{.4\textwidth}
+        \underline{\textbf{output:}}\medskip\\
+        1 – caminhada\\
+        2 – subindo escadas\\
+        3 – descendo escadas\\
+        4 – sentado\\
+        5 – em pé\\
+        6 – deitado\\[3mm]
+        \underline{\textbf{one-hot enconding:}}\medskip\\
+        $[$1 0 0 0 0 0$]^T$: walking\\
+        $[$0 1 0 0 0 0$]^T$: climbing stairs\\
+        $[$0 0 1 0 0 0$]^T$: going down stairs\\
+        $[$0 0 0 1 0 0$]^T$: seated\\
+        $[$0 0 0 0 1 0$]^T$: standing\\
+        $[$0 0 0 0 0 1$]^T$: lying
+    \end{minipage}
+\end{center}
+
 %=======================================
 \subsection{a) Logistic regression (using softmax approach)}
 %=======================================
 
-\paragraph{We start this exercise by }
+\paragraph{The approach used to implement the multiclass classifier was the softmax. All operations involved was performed in the matrix way, in order to try to improve the computational costs involved.}
 
-**output** <br>
-1 – caminhada <br>
-2 – subindo escadas <br>
-3 – descendo escadas <br>
-4 – sentado <br>
-5 – em pé <br>
-6 – deitado <br>
-<br>
-**one-hot enconding** <br>
-[1 0 0 0 0 0]$^T$: walking <br>
-[0 1 0 0 0 0]$^T$: climbing stairs <br>
-[0 0 1 0 0 0]$^T$: going down stairs <br>
-[0 0 0 1 0 0]$^T$: seated <br>
-[0 0 0 0 1 0]$^T$: standing <br>
-[0 0 0 0 0 1]$^T$: lying <br>
+\paragraph{A weight array with K+1 elements (in this case we have K = 561 features) is randomly initiated according to a uniform distribution between -1 and 1 for each class, as can be seen:}
+
+
+\[ \boldsymbol{w_C} = \begin{bmatrix} w_0^{(C)} & w_1^{(C)} & ... & w_K^{(C)} \end{bmatrix}^T \]
+
+\paragraph{As we have six different classes, the W matrix can be generated as follows:}
+
+\[ \boldsymbol{W} = \begin{bmatrix} \boldsymbol{w_0} & \boldsymbol{w_1} & ... & \boldsymbol{w_K} \end{bmatrix} = \begin{bmatrix} 
+    w_0^{(0)} & w_0^{(1)} &   ...  & w_0^{(C)} \\ 
+    w_1^{(0)} & w_1^{(1)} &   ...  & w_1^{(C)} \\
+      \vdots  &   \vdots  & \ddots &   \vdots  \\
+    w_K^{(0)} & w_K^{(1)} &   ...  & w_K^{(C)} \\
+\end{bmatrix} \]
+
+\paragraph{The stop criteria adopted was a tolerance of $2.10^{-2}$ for the error in a given iteration. The function used to calculate the error was the zero-one loss, where a 0 is assigned when the class was correctly classified, and 1 when it was not. We then calculate the zero-one loss for all data in the training set, sum all of them and divide by the number of inputs (7352 in this case).}
+
+\paragraph{The variation of the error with the number of epochs is shown in the Figure \ref{fig:ex2-a-zero_one_loss}.}
 
 \begin{figure}[H]
     \centering
@@ -488,6 +516,8 @@ In this repository, one can found the following files:\\}
     \label{fig:ex2-a-zero_one_loss}
 \end{figure}
 
+\paragraph{In the Figure \ref{fig:ex2-a-zero_one_loss_zoom} we can see a zoom of the previous curve focusing in the beginning of the curve. As we can see, the initial error is very high (bigger than 0.9) due to the randomly generated weights.}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{zero_one_loss_zoom}
@@ -495,51 +525,103 @@ In this repository, one can found the following files:\\}
     \label{fig:ex2-a-zero_one_loss_zoom}
 \end{figure}
 
+\paragraph{Now it is time to measure the performance of the classifier. To do this, we again are using the metrics provided by the scikit-learn library. We are using the ``\textit{confusion\_matrix}'' and ``\textit{f1\_score}'' functions.}
+
+
+
+
+%F1 MICRO
+%F1 MACRO
+
+
+
+
 %=======================================
-\subsection{b) K-Nearest Neighbors}
+\subsection{b) k-Nearest Neighbors}
 %=======================================
 
+\paragraph{For the k-Nearest Neighbors (kNN) method, we use a lazy learning method. For this, the first thing we should do is to calculate somehow the distance between the new data and all the data from the training set. The distance metric used here was the Minkowski.}
+
+\paragraph{Minkowski distance:}
+
+\[ d(x,y) = \left( \sum_{i=1}^{K} |x_i - y_i|^p \right)^{1/p} \]
+
+\paragraph{For \textit{p = 2}, we have the Euclidian distance:}
+
+\[ d(x,y) = \sqrt{\sum_{i=1}^{K} |x_i - y_i|^2} \]
+
+\paragraph{In order to reduce the calculation costs, the distance between all data from the training set and all data in the test set were calculated in the matrix form. A distance matrix $D$ was created for this, as can be seen as follows:}
+
+\begin{center}
+\textit{D}: distances matrix\\
+\textit{D} shape: (M x N)
+\end{center}
+
+\begin{center}
+    \begin{minipage}{.7\textwidth}
+        \[ D = \begin{bmatrix}
+          d(x_{T_0},x_{D_0}) & d(x_{T_0},x_{D_1}) &   ...  & d(x_{T_0},x_{D_N}) \\ 
+          d(x_{T_1},x_{D_0}) & d(x_{T_1},x_{D_1}) &   ...  & d(x_{T_1},x_{D_N}) \\ 
+                 \vdots      &       \vdots       & \ddots &        \vdots      \\
+          d(x_{T_M},x_{D_0}) & d(x_{T_M},x_{D_1}) &   ...  & d(x_{T_M},x_{D_N}) \\ 
+        \end{bmatrix} \]
+        Where:
+        \begin{itemize}
+            \item $x_{T_M}$ is the M$^{th}$ sample of training set
+            \item $x_{D_N}$ is the N$^{th}$ sample of data set
+            \item $d(x_{T_M},x_{D_N})$ is the Minkowski distance between the points $x_{T_M}$ and $x_{D_N}$
+        \end{itemize}
+    \end{minipage}
+\end{center}
+
+\paragraph{During the decision step two approaches were used. The first one presented here uses uniform weights, i.e., each k neighbors have the same weight when voting for their own class. The result for this approach can be seen in the Figure \ref{fig:ex2-b-error_uniform}. In Figure \ref{fig:ex2-b-error_uniform_zoom} we can see a zoom in the previous plot showing the value of k optimum = AAAAAAAAA.}
+%
+%
+%
+% CHANGE VALUE OF K
+%
+%
+%
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{error_uniform}
     \caption{Zero-one loss curve (uniform weights}
-    \label{fig:ex2-b-error_uniform_0}
+    \label{fig:ex2-b-error_uniform}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=12cm]{error_uniform_(mid_zoom)}
+    \includegraphics[width=12cm]{error_uniform_(zoom)}
     \caption{Zero-one loss curve (uniform weights}
-    \label{fig:ex2-b-error_uniform_1}
+    \label{fig:ex2-b-error_uniform_zoom}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=12cm]{error_uniform_(full_zoom)}
-    \caption{Zero-one loss curve (uniform weights}
-    \label{fig:ex2-b-error_uniform_2}
-\end{figure}
-
+\paragraph{The second approach uses distance weights. In this case, each vote is pondered according to the inverse of the distance. This means that when predicting the class for a new input, the class of a very similar data in the training set has more relevance than a data not so close to this new input. The result for this approach can be seen in the Figure \ref{fig:ex2-b-error_distance}. In Figure \ref{fig:ex2-b-error_uniform_zoom} we can see a zoom in the previous plot showing the value of k optimum = AAAAAAAAA.}
+%
+%
+%
+% CHANGE VALUE OF K
+%
+%
+%
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{error_distance}
     \caption{Zero-one loss curve (inversely proportional to distance weights}
-    \label{fig:ex2-b-error_distance_0}
+    \label{fig:ex2-b-error_distance}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=12cm]{error_distance_(mid_zoom)}
+    \includegraphics[width=12cm]{error_distance_(zoom)}
     \caption{Zero-one loss curve (inversely proportional to distance weights}
-    \label{fig:ex2-b-error_distance_1}
+    \label{fig:ex2-b-error_distance_zoom}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=12cm]{error_distance_(full_zoom)}
-    \caption{Zero-one loss curve (inversely proportional to distance weights}
-    \label{fig:ex2-b-error_distance_2}
-\end{figure}
+\paragraph{
+COMPARASION BETWEEN softmax and kNN
+COMPARASION BETWEEN DISTANCE AND UNIFORM
+}
 
 %=================================================
 \end{document}

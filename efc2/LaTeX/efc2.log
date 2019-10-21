@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.28)  17 OCT 2019 20:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.28)  20 OCT 2019 21:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,12 +369,12 @@ LaTeX Info: Redefining \nameref on input line 30.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 30.
-<../figures/unicamp.png, id=36, 481.8pt x 481.8pt>
+<../figures/unicamp.png, id=48, 481.8pt x 481.8pt>
 File: ../figures/unicamp.png Graphic file (type png)
 <use ../figures/unicamp.png>
 Package pdftex.def Info: ../figures/unicamp.png  used on input line 37.
 (pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
-<../figures/feec.jpg, id=38, 863.225pt x 357.335pt>
+<../figures/feec.jpg, id=50, 863.225pt x 357.335pt>
 File: ../figures/feec.jpg Graphic file (type jpg)
 <use ../figures/feec.jpg>
 Package pdftex.def Info: ../figures/feec.jpg  used on input line 44.
@@ -391,292 +391,434 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
  [2]
-<../figures/pre-ex1/raw_0_sd.png, id=68, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_0_sd.png, id=90, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_0_sd.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_0_sd.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_0_sd.png  used on input line 103.
+Package pdftex.def Info: ../figures/pre-ex1/raw_0_sd.png  used on input line 109.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_1_median.png, id=69, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_1_median.png, id=91, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_1_median.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_1_median.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_1_median.png  used on input line 111.
+Package pdftex.def Info: ../figures/pre-ex1/raw_1_median.png  used on input line 117.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_2_Q25.png, id=70, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_2_Q25.png, id=92, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_2_Q25.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_2_Q25.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_2_Q25.png  used on input line 119.
+Package pdftex.def Info: ../figures/pre-ex1/raw_2_Q25.png  used on input line 125.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_3_Q75.png, id=71, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_3_Q75.png, id=93, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_3_Q75.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_3_Q75.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_3_Q75.png  used on input line 127.
+Package pdftex.def Info: ../figures/pre-ex1/raw_3_Q75.png  used on input line 133.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_4_IQR.png, id=72, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_4_IQR.png, id=94, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_4_IQR.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_4_IQR.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_4_IQR.png  used on input line 134.
+Package pdftex.def Info: ../figures/pre-ex1/raw_4_IQR.png  used on input line 140.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_5_skew.png, id=73, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_5_skew.png, id=95, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_5_skew.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_5_skew.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_5_skew.png  used on input line 141.
+Package pdftex.def Info: ../figures/pre-ex1/raw_5_skew.png  used on input line 147.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_6_kurt.png, id=74, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_6_kurt.png, id=96, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_6_kurt.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_6_kurt.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_6_kurt.png  used on input line 149.
+Package pdftex.def Info: ../figures/pre-ex1/raw_6_kurt.png  used on input line 155.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_7_sp_ent.png, id=75, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_7_sp_ent.png, id=97, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_7_sp_ent.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_7_sp_ent.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_7_sp_ent.png  used on input line 156.
+Package pdftex.def Info: ../figures/pre-ex1/raw_7_sp_ent.png  used on input line 162.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_8_sfm.png, id=76, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_8_sfm.png, id=98, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_8_sfm.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_8_sfm.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_8_sfm.png  used on input line 163.
+Package pdftex.def Info: ../figures/pre-ex1/raw_8_sfm.png  used on input line 169.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_9_mode.png, id=77, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_9_mode.png, id=99, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_9_mode.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_9_mode.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_9_mode.png  used on input line 170.
+Package pdftex.def Info: ../figures/pre-ex1/raw_9_mode.png  used on input line 176.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_10_centroid.png, id=78, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_10_centroid.png, id=100, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_10_centroid.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_10_centroid.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_10_centroid.png  used on input line 177.
+Package pdftex.def Info: ../figures/pre-ex1/raw_10_centroid.png  used on input line 183.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_11_meanfun.png, id=79, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_11_meanfun.png, id=101, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_11_meanfun.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_11_meanfun.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_11_meanfun.png  used on input line 184.
+Package pdftex.def Info: ../figures/pre-ex1/raw_11_meanfun.png  used on input line 190.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_12_minfun.png, id=80, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_12_minfun.png, id=102, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_12_minfun.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_12_minfun.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_12_minfun.png  used on input line 191.
+Package pdftex.def Info: ../figures/pre-ex1/raw_12_minfun.png  used on input line 197.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_13_maxfun.png, id=81, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_13_maxfun.png, id=103, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_13_maxfun.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_13_maxfun.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_13_maxfun.png  used on input line 198.
+Package pdftex.def Info: ../figures/pre-ex1/raw_13_maxfun.png  used on input line 204.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_14_meandom.png, id=82, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_14_meandom.png, id=104, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_14_meandom.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_14_meandom.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_14_meandom.png  used on input line 205.
+Package pdftex.def Info: ../figures/pre-ex1/raw_14_meandom.png  used on input line 211.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_15_mindom.png, id=83, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_15_mindom.png, id=105, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_15_mindom.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_15_mindom.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_15_mindom.png  used on input line 212.
+Package pdftex.def Info: ../figures/pre-ex1/raw_15_mindom.png  used on input line 218.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_16_maxdom.png, id=84, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_16_maxdom.png, id=106, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_16_maxdom.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_16_maxdom.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_16_maxdom.png  used on input line 219.
+Package pdftex.def Info: ../figures/pre-ex1/raw_16_maxdom.png  used on input line 225.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_17_dfrange.png, id=85, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_17_dfrange.png, id=107, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_17_dfrange.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_17_dfrange.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_17_dfrange.png  used on input line 226.
+Package pdftex.def Info: ../figures/pre-ex1/raw_17_dfrange.png  used on input line 232.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/raw_18_modindx.png, id=86, 433.62pt x 289.08pt>
+<../figures/pre-ex1/raw_18_modindx.png, id=108, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/raw_18_modindx.png Graphic file (type png)
 <use ../figures/pre-ex1/raw_18_modindx.png>
-Package pdftex.def Info: ../figures/pre-ex1/raw_18_modindx.png  used on input line 233.
+Package pdftex.def Info: ../figures/pre-ex1/raw_18_modindx.png  used on input line 239.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_0_sd.png, id=87, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_0_sd.png, id=109, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_0_sd.png Graphic file (type png)
 <use ../figures/pre-ex1/std_0_sd.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_0_sd.png  used on input line 249.
+Package pdftex.def Info: ../figures/pre-ex1/std_0_sd.png  used on input line 255.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_1_median.png, id=88, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_1_median.png, id=110, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_1_median.png Graphic file (type png)
 <use ../figures/pre-ex1/std_1_median.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_1_median.png  used on input line 257.
+Package pdftex.def Info: ../figures/pre-ex1/std_1_median.png  used on input line 263.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_2_Q25.png, id=89, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_2_Q25.png, id=111, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_2_Q25.png Graphic file (type png)
 <use ../figures/pre-ex1/std_2_Q25.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_2_Q25.png  used on input line 265.
+Package pdftex.def Info: ../figures/pre-ex1/std_2_Q25.png  used on input line 271.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_3_Q75.png, id=90, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_3_Q75.png, id=112, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_3_Q75.png Graphic file (type png)
 <use ../figures/pre-ex1/std_3_Q75.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_3_Q75.png  used on input line 273.
+Package pdftex.def Info: ../figures/pre-ex1/std_3_Q75.png  used on input line 279.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_4_IQR.png, id=91, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_4_IQR.png, id=113, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_4_IQR.png Graphic file (type png)
 <use ../figures/pre-ex1/std_4_IQR.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_4_IQR.png  used on input line 280.
+Package pdftex.def Info: ../figures/pre-ex1/std_4_IQR.png  used on input line 286.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_5_skew.png, id=92, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_5_skew.png, id=114, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_5_skew.png Graphic file (type png)
 <use ../figures/pre-ex1/std_5_skew.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_5_skew.png  used on input line 287.
+Package pdftex.def Info: ../figures/pre-ex1/std_5_skew.png  used on input line 293.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_6_kurt.png, id=93, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_6_kurt.png, id=115, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_6_kurt.png Graphic file (type png)
 <use ../figures/pre-ex1/std_6_kurt.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_6_kurt.png  used on input line 295.
+Package pdftex.def Info: ../figures/pre-ex1/std_6_kurt.png  used on input line 301.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_7_sp_ent.png, id=94, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_7_sp_ent.png, id=116, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_7_sp_ent.png Graphic file (type png)
 <use ../figures/pre-ex1/std_7_sp_ent.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_7_sp_ent.png  used on input line 302.
+Package pdftex.def Info: ../figures/pre-ex1/std_7_sp_ent.png  used on input line 308.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_8_sfm.png, id=95, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_8_sfm.png, id=117, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_8_sfm.png Graphic file (type png)
 <use ../figures/pre-ex1/std_8_sfm.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_8_sfm.png  used on input line 309.
+Package pdftex.def Info: ../figures/pre-ex1/std_8_sfm.png  used on input line 315.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_9_mode.png, id=96, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_9_mode.png, id=118, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_9_mode.png Graphic file (type png)
 <use ../figures/pre-ex1/std_9_mode.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_9_mode.png  used on input line 316.
+Package pdftex.def Info: ../figures/pre-ex1/std_9_mode.png  used on input line 322.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_10_centroid.png, id=97, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_10_centroid.png, id=119, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_10_centroid.png Graphic file (type png)
 <use ../figures/pre-ex1/std_10_centroid.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_10_centroid.png  used on input line 323.
+Package pdftex.def Info: ../figures/pre-ex1/std_10_centroid.png  used on input line 329.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_11_meanfun.png, id=98, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_11_meanfun.png, id=120, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_11_meanfun.png Graphic file (type png)
 <use ../figures/pre-ex1/std_11_meanfun.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_11_meanfun.png  used on input line 330.
+Package pdftex.def Info: ../figures/pre-ex1/std_11_meanfun.png  used on input line 336.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_12_minfun.png, id=99, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_12_minfun.png, id=121, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_12_minfun.png Graphic file (type png)
 <use ../figures/pre-ex1/std_12_minfun.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_12_minfun.png  used on input line 337.
+Package pdftex.def Info: ../figures/pre-ex1/std_12_minfun.png  used on input line 343.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_13_maxfun.png, id=100, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_13_maxfun.png, id=122, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_13_maxfun.png Graphic file (type png)
 <use ../figures/pre-ex1/std_13_maxfun.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_13_maxfun.png  used on input line 344.
+Package pdftex.def Info: ../figures/pre-ex1/std_13_maxfun.png  used on input line 350.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_14_meandom.png, id=101, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_14_meandom.png, id=123, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_14_meandom.png Graphic file (type png)
 <use ../figures/pre-ex1/std_14_meandom.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_14_meandom.png  used on input line 351.
+Package pdftex.def Info: ../figures/pre-ex1/std_14_meandom.png  used on input line 357.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_15_mindom.png, id=102, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_15_mindom.png, id=124, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_15_mindom.png Graphic file (type png)
 <use ../figures/pre-ex1/std_15_mindom.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_15_mindom.png  used on input line 358.
+Package pdftex.def Info: ../figures/pre-ex1/std_15_mindom.png  used on input line 364.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_16_maxdom.png, id=103, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_16_maxdom.png, id=125, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_16_maxdom.png Graphic file (type png)
 <use ../figures/pre-ex1/std_16_maxdom.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_16_maxdom.png  used on input line 365.
+Package pdftex.def Info: ../figures/pre-ex1/std_16_maxdom.png  used on input line 371.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_17_dfrange.png, id=104, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_17_dfrange.png, id=126, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_17_dfrange.png Graphic file (type png)
 <use ../figures/pre-ex1/std_17_dfrange.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_17_dfrange.png  used on input line 372.
+Package pdftex.def Info: ../figures/pre-ex1/std_17_dfrange.png  used on input line 378.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/std_18_modindx.png, id=105, 433.62pt x 289.08pt>
+<../figures/pre-ex1/std_18_modindx.png, id=127, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/std_18_modindx.png Graphic file (type png)
 <use ../figures/pre-ex1/std_18_modindx.png>
-Package pdftex.def Info: ../figures/pre-ex1/std_18_modindx.png  used on input line 379.
+Package pdftex.def Info: ../figures/pre-ex1/std_18_modindx.png  used on input line 385.
 (pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
-<../figures/pre-ex1/correlation.png, id=108, 1373.13pt x 1084.05pt>
+ [3 <../figures/pre-ex1/raw_0_sd.png> <../figures/pre-ex1/raw_1_median.png> <../figures/pre-ex1/raw_2_Q25.png> <../figures/pre-ex1/raw_3_Q75.png> <../figures/pre-ex1/raw_4_IQR.png> <../figures/pre-ex1/raw_5_skew.png> <../figures/pre-ex1/raw_6_kurt.png> <../figures/pre-ex1/raw_7_sp_ent.png> <../figures/pre-ex1/raw_8_sfm.png> <../figures/pre-ex1/raw_9_mode.png> <../figures/pre-ex1/raw_10_centroid.png> <../figures/pre-ex1/raw_11_meanfun.png> <../figures/pre-ex1/raw_12_minfun.png> <../figures/pre-ex1/raw_13_maxfun.png> <../figures/pre-ex1/raw_14_meandom.png> <../figures/pre-ex1/raw_15_mindom.png> <../figures/pre-ex1/raw_16_maxdom.png> <../figures/pre-ex1/raw_17_dfrange.png> <../figures/pre-ex1/raw_18_modindx.png>]
+<../figures/pre-ex1/sbs_0_sd.png, id=152, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_0_sd.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_0_sd.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_0_sd.png  used on input line 401.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_1_median.png, id=153, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_1_median.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_1_median.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_1_median.png  used on input line 409.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_2_Q25.png, id=154, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_2_Q25.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_2_Q25.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_2_Q25.png  used on input line 417.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_3_Q75.png, id=155, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_3_Q75.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_3_Q75.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_3_Q75.png  used on input line 425.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_4_IQR.png, id=156, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_4_IQR.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_4_IQR.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_4_IQR.png  used on input line 432.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_5_skew.png, id=157, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_5_skew.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_5_skew.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_5_skew.png  used on input line 439.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_6_kurt.png, id=158, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_6_kurt.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_6_kurt.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_6_kurt.png  used on input line 447.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_7_sp_ent.png, id=159, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_7_sp_ent.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_7_sp_ent.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_7_sp_ent.png  used on input line 454.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_8_sfm.png, id=160, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_8_sfm.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_8_sfm.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_8_sfm.png  used on input line 461.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_9_mode.png, id=161, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_9_mode.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_9_mode.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_9_mode.png  used on input line 468.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_10_centroid.png, id=162, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_10_centroid.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_10_centroid.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_10_centroid.png  used on input line 475.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_11_meanfun.png, id=163, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_11_meanfun.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_11_meanfun.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_11_meanfun.png  used on input line 482.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_12_minfun.png, id=164, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_12_minfun.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_12_minfun.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_12_minfun.png  used on input line 489.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_13_maxfun.png, id=165, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_13_maxfun.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_13_maxfun.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_13_maxfun.png  used on input line 496.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_14_meandom.png, id=166, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_14_meandom.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_14_meandom.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_14_meandom.png  used on input line 503.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_15_mindom.png, id=167, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_15_mindom.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_15_mindom.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_15_mindom.png  used on input line 510.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_16_maxdom.png, id=168, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_16_maxdom.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_16_maxdom.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_16_maxdom.png  used on input line 517.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_17_dfrange.png, id=169, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_17_dfrange.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_17_dfrange.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_17_dfrange.png  used on input line 524.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+<../figures/pre-ex1/sbs_18_modindx.png, id=170, 433.62pt x 289.08pt>
+File: ../figures/pre-ex1/sbs_18_modindx.png Graphic file (type png)
+<use ../figures/pre-ex1/sbs_18_modindx.png>
+Package pdftex.def Info: ../figures/pre-ex1/sbs_18_modindx.png  used on input line 531.
+(pdftex.def)             Requested size: 109.54327pt x 73.0285pt.
+ [4 <../figures/pre-ex1/std_0_sd.png> <../figures/pre-ex1/std_1_median.png> <../figures/pre-ex1/std_2_Q25.png> <../figures/pre-ex1/std_3_Q75.png> <../figures/pre-ex1/std_4_IQR.png> <../figures/pre-ex1/std_5_skew.png> <../figures/pre-ex1/std_6_kurt.png> <../figures/pre-ex1/std_7_sp_ent.png> <../figures/pre-ex1/std_8_sfm.png> <../figures/pre-ex1/std_9_mode.png> <../figures/pre-ex1/std_10_centroid.png> <../figures/pre-ex1/std_11_meanfun.png> <../figures/pre-ex1/std_12_minfun.png> <../figures/pre-ex1/std_13_maxfun.png> <../figures/pre-ex1/std_14_meandom.png> <../figures/pre-ex1/std_15_mindom.png> <../figures/pre-ex1/std_16_maxdom.png> <../figures/pre-ex1/std_17_dfrange.png> <../figures/pre-ex1/std_18_modindx.png>] [5 <../figures/pre-ex1/sbs_0_sd.png> <../figures/pre-ex1/sbs_1_median.png> <../figures/pre-ex1/sbs_2_Q25.png> <../figures/pre-ex1/sbs_3_Q75.png> <../figures/pre-ex1/sbs_4_IQR.png> <../figures/pre-ex1/sbs_5_skew.png> <../figures/pre-ex1/sbs_6_kurt.png> <../figures/pre-ex1/sbs_7_sp_ent.png> <../figures/pre-ex1/sbs_8_sfm.png> <../figures/pre-ex1/sbs_9_mode.png> <../figures/pre-ex1/sbs_10_centroid.png> <../figures/pre-ex1/sbs_11_meanfun.png> <../figures/pre-ex1/sbs_12_minfun.png> <../figures/pre-ex1/sbs_13_maxfun.png> <../figures/pre-ex1/sbs_14_meandom.png> <../figures/pre-ex1/sbs_15_mindom.png> <../figures/pre-ex1/sbs_16_maxdom.png> <../figures/pre-ex1/sbs_17_dfrange.png> <../figures/pre-ex1/sbs_18_modindx.png>]
+<../figures/pre-ex1/correlation.png, id=220, 1373.13pt x 1084.05pt>
 File: ../figures/pre-ex1/correlation.png Graphic file (type png)
 <use ../figures/pre-ex1/correlation.png>
-Package pdftex.def Info: ../figures/pre-ex1/correlation.png  used on input line 392.
+Package pdftex.def Info: ../figures/pre-ex1/correlation.png  used on input line 546.
 (pdftex.def)             Requested size: 426.79134pt x 336.92871pt.
-<../figures/pre-ex1/logistic_function.png, id=110, 433.62pt x 289.08pt>
+<../figures/pre-ex1/logistic_function.png, id=221, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/logistic_function.png Graphic file (type png)
 <use ../figures/pre-ex1/logistic_function.png>
-Package pdftex.def Info: ../figures/pre-ex1/logistic_function.png  used on input line 401.
+Package pdftex.def Info: ../figures/pre-ex1/logistic_function.png  used on input line 555.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
- [3 <../figures/pre-ex1/correlation.png>] [4 <../figures/pre-ex1/raw_0_sd.png> <../figures/pre-ex1/raw_1_median.png> <../figures/pre-ex1/raw_2_Q25.png> <../figures/pre-ex1/raw_3_Q75.png> <../figures/pre-ex1/raw_4_IQR.png> <../figures/pre-ex1/raw_5_skew.png> <../figures/pre-ex1/raw_6_kurt.png> <../figures/pre-ex1/raw_7_sp_ent.png> <../figures/pre-ex1/raw_8_sfm.png> <../figures/pre-ex1/raw_9_mode.png> <../figures/pre-ex1/raw_10_centroid.png> <../figures/pre-ex1/raw_11_meanfun.png> <../figures/pre-ex1/raw_12_minfun.png> <../figures/pre-ex1/raw_13_maxfun.png> <../figures/pre-ex1/raw_14_meandom.png> <../figures/pre-ex1/raw_15_mindom.png> <../figures/pre-ex1/raw_16_maxdom.png> <../figures/pre-ex1/raw_17_dfrange.png> <../figures/pre-ex1/raw_18_modindx.png>] [5 <../figures/pre-ex1/std_0_sd.png> <../figures/pre-ex1/std_1_median.png> <../figures/pre-ex1/std_2_Q25.png> <../figures/pre-ex1/std_3_Q75.png> <../figures/pre-ex1/std_4_IQR.png> <../figures/pre-ex1/std_5_skew.png> <../figures/pre-ex1/std_6_kurt.png> <../figures/pre-ex1/std_7_sp_ent.png> <../figures/pre-ex1/std_8_sfm.png> <../figures/pre-ex1/std_9_mode.png> <../figures/pre-ex1/std_10_centroid.png> <../figures/pre-ex1/std_11_meanfun.png> <../figures/pre-ex1/std_12_minfun.png> <../figures/pre-ex1/std_13_maxfun.png> <../figures/pre-ex1/std_14_meandom.png> <../figures/pre-ex1/std_15_mindom.png> <../figures/pre-ex1/std_16_maxdom.png> <../figures/pre-ex1/std_17_dfrange.png> <../figures/pre-ex1/std_18_modindx.png>]
-<../figures/pre-ex1/logistic_vs_tanh.png, id=169, 433.62pt x 289.08pt>
+ [6 <../figures/pre-ex1/correlation.png>]
+<../figures/pre-ex1/logistic_vs_tanh.png, id=229, 433.62pt x 289.08pt>
 File: ../figures/pre-ex1/logistic_vs_tanh.png Graphic file (type png)
 <use ../figures/pre-ex1/logistic_vs_tanh.png>
-Package pdftex.def Info: ../figures/pre-ex1/logistic_vs_tanh.png  used on input line 410.
+Package pdftex.def Info: ../figures/pre-ex1/logistic_vs_tanh.png  used on input line 564.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
- [6 <../figures/pre-ex1/logistic_function.png> <../figures/pre-ex1/logistic_vs_tanh.png>]
-<../figures/ex1/error.png, id=181, 433.62pt x 289.08pt>
+ [7 <../figures/pre-ex1/logistic_function.png> <../figures/pre-ex1/logistic_vs_tanh.png>]
+<../figures/ex1/error.png, id=242, 433.62pt x 289.08pt>
 File: ../figures/ex1/error.png Graphic file (type png)
 <use ../figures/ex1/error.png>
-Package pdftex.def Info: ../figures/ex1/error.png  used on input line 425.
+Package pdftex.def Info: ../figures/ex1/error.png  used on input line 579.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
-<../figures/ex1/ROC.png, id=183, 433.62pt x 289.08pt>
+<../figures/ex1/ROC.png, id=244, 433.62pt x 289.08pt>
 File: ../figures/ex1/ROC.png Graphic file (type png)
 <use ../figures/ex1/ROC.png>
-Package pdftex.def Info: ../figures/ex1/ROC.png  used on input line 434.
+Package pdftex.def Info: ../figures/ex1/ROC.png  used on input line 588.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
- [7 <../figures/ex1/error.png> <../figures/ex1/ROC.png>]
-<../figures/ex1/F1_score.png, id=198, 433.62pt x 289.08pt>
+ [8 <../figures/ex1/error.png>]
+<../figures/ex1/F1_score.png, id=257, 433.62pt x 289.08pt>
 File: ../figures/ex1/F1_score.png Graphic file (type png)
 <use ../figures/ex1/F1_score.png>
-Package pdftex.def Info: ../figures/ex1/F1_score.png  used on input line 443.
+Package pdftex.def Info: ../figures/ex1/F1_score.png  used on input line 597.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
-<../figures/ex1/F1_score_zoom.png, id=200, 433.62pt x 289.08pt>
+<../figures/ex1/F1_score_zoom.png, id=259, 433.62pt x 289.08pt>
 File: ../figures/ex1/F1_score_zoom.png Graphic file (type png)
 <use ../figures/ex1/F1_score_zoom.png>
-Package pdftex.def Info: ../figures/ex1/F1_score_zoom.png  used on input line 456.
+Package pdftex.def Info: ../figures/ex1/F1_score_zoom.png  used on input line 610.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
- [8 <../figures/ex1/F1_score.png> <../figures/ex1/F1_score_zoom.png>] [9]
-<../figures/ex2-multiclass_classification/zero_one_loss.png, id=218, 433.62pt x 289.08pt>
+ [9 <../figures/ex1/ROC.png> <../figures/ex1/F1_score.png>] [10 <../figures/ex1/F1_score_zoom.png>]
+<../figures/ex1/binary_cm_raw.png, id=280, 355.8093pt x 257.763pt>
+File: ../figures/ex1/binary_cm_raw.png Graphic file (type png)
+<use ../figures/ex1/binary_cm_raw.png>
+Package pdftex.def Info: ../figures/ex1/binary_cm_raw.png  used on input line 620.
+(pdftex.def)             Requested size: 341.43306pt x 247.36708pt.
+<../figures/ex1/binary_cm_norm.png, id=281, 352.6776pt x 257.763pt>
+File: ../figures/ex1/binary_cm_norm.png Graphic file (type png)
+<use ../figures/ex1/binary_cm_norm.png>
+Package pdftex.def Info: ../figures/ex1/binary_cm_norm.png  used on input line 627.
+(pdftex.def)             Requested size: 341.43306pt x 249.55783pt.
+ [11 <../figures/ex1/binary_cm_raw.png> <../figures/ex1/binary_cm_norm.png>]
+<../figures/ex2-multiclass_classification/zero_one_loss.png, id=294, 433.62pt x 289.08pt>
 File: ../figures/ex2-multiclass_classification/zero_one_loss.png Graphic file (type png)
 <use ../figures/ex2-multiclass_classification/zero_one_loss.png>
-Package pdftex.def Info: ../figures/ex2-multiclass_classification/zero_one_loss.png  used on input line 514.
+Package pdftex.def Info: ../figures/ex2-multiclass_classification/zero_one_loss.png  used on input line 685.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
- [10]
-<../figures/ex2-multiclass_classification/zero_one_loss_zoom.png, id=234, 433.62pt x 289.08pt>
+ [12]
+<../figures/ex2-multiclass_classification/zero_one_loss_zoom.png, id=310, 433.62pt x 289.08pt>
 File: ../figures/ex2-multiclass_classification/zero_one_loss_zoom.png Graphic file (type png)
 <use ../figures/ex2-multiclass_classification/zero_one_loss_zoom.png>
-Package pdftex.def Info: ../figures/ex2-multiclass_classification/zero_one_loss_zoom.png  used on input line 523.
+Package pdftex.def Info: ../figures/ex2-multiclass_classification/zero_one_loss_zoom.png  used on input line 694.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
- [11 <../figures/ex2-multiclass_classification/zero_one_loss.png> <../figures/ex2-multiclass_classification/zero_one_loss_zoom.png>]
-<../figures/ex2-knn/error_uniform.png, id=250, 433.62pt x 289.08pt>
+<../figures/ex2-multiclass_classification/cm_raw.png, id=312, 681.0243pt x 529.98pt>
+File: ../figures/ex2-multiclass_classification/cm_raw.png Graphic file (type png)
+<use ../figures/ex2-multiclass_classification/cm_raw.png>
+Package pdftex.def Info: ../figures/ex2-multiclass_classification/cm_raw.png  used on input line 705.
+(pdftex.def)             Requested size: 312.9803pt x 243.5673pt.
+ [13 <../figures/ex2-multiclass_classification/zero_one_loss.png> <../figures/ex2-multiclass_classification/zero_one_loss_zoom.png>]
+<../figures/ex2-multiclass_classification/cm_norm.png, id=325, 677.6517pt x 529.98pt>
+File: ../figures/ex2-multiclass_classification/cm_norm.png Graphic file (type png)
+<use ../figures/ex2-multiclass_classification/cm_norm.png>
+Package pdftex.def Info: ../figures/ex2-multiclass_classification/cm_norm.png  used on input line 712.
+(pdftex.def)             Requested size: 312.9803pt x 244.78033pt.
+ [14 <../figures/ex2-multiclass_classification/cm_raw.png> <../figures/ex2-multiclass_classification/cm_norm.png>]
+<../figures/ex2-knn/error_uniform.png, id=338, 433.62pt x 289.08pt>
 File: ../figures/ex2-knn/error_uniform.png Graphic file (type png)
 <use ../figures/ex2-knn/error_uniform.png>
-Package pdftex.def Info: ../figures/ex2-knn/error_uniform.png  used on input line 587.
+Package pdftex.def Info: ../figures/ex2-knn/error_uniform.png  used on input line 772.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
-<../figures/ex2-knn/error_uniform_(zoom).png, id=251, 433.62pt x 289.08pt>
+<../figures/ex2-knn/error_uniform_(zoom).png, id=339, 433.62pt x 289.08pt>
 File: ../figures/ex2-knn/error_uniform_(zoom).png Graphic file (type png)
 <use ../figures/ex2-knn/error_uniform_(zoom).png>
-Package pdftex.def Info: ../figures/ex2-knn/error_uniform_(zoom).png  used on input line 594.
+Package pdftex.def Info: ../figures/ex2-knn/error_uniform_(zoom).png  used on input line 779.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
- [12 <../figures/ex2-knn/error_uniform.png>]
-<../figures/ex2-knn/error_distance.png, id=266, 433.62pt x 289.08pt>
+ [15 <../figures/ex2-knn/error_uniform.png>]
+<../figures/ex2-knn/cm_uniform.png, id=355, 681.0243pt x 529.98pt>
+File: ../figures/ex2-knn/cm_uniform.png Graphic file (type png)
+<use ../figures/ex2-knn/cm_uniform.png>
+Package pdftex.def Info: ../figures/ex2-knn/cm_uniform.png  used on input line 788.
+(pdftex.def)             Requested size: 341.43306pt x 265.70906pt.
+<../figures/ex2-knn/cm_uniform_normalized.png, id=356, 677.6517pt x 529.98pt>
+File: ../figures/ex2-knn/cm_uniform_normalized.png Graphic file (type png)
+<use ../figures/ex2-knn/cm_uniform_normalized.png>
+Package pdftex.def Info: ../figures/ex2-knn/cm_uniform_normalized.png  used on input line 795.
+(pdftex.def)             Requested size: 341.43306pt x 267.03531pt.
+ [16 <../figures/ex2-knn/error_uniform_(zoom).png> <../figures/ex2-knn/cm_uniform.png>]
+<../figures/ex2-knn/error_distance.png, id=368, 433.62pt x 289.08pt>
 File: ../figures/ex2-knn/error_distance.png Graphic file (type png)
 <use ../figures/ex2-knn/error_distance.png>
-Package pdftex.def Info: ../figures/ex2-knn/error_distance.png  used on input line 609.
+Package pdftex.def Info: ../figures/ex2-knn/error_distance.png  used on input line 816.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
-<../figures/ex2-knn/error_distance_(zoom).png, id=267, 433.62pt x 289.08pt>
+ [17 <../figures/ex2-knn/cm_uniform_normalized.png>]
+<../figures/ex2-knn/error_distance_(zoom).png, id=377, 433.62pt x 289.08pt>
 File: ../figures/ex2-knn/error_distance_(zoom).png Graphic file (type png)
 <use ../figures/ex2-knn/error_distance_(zoom).png>
-Package pdftex.def Info: ../figures/ex2-knn/error_distance_(zoom).png  used on input line 616.
+Package pdftex.def Info: ../figures/ex2-knn/error_distance_(zoom).png  used on input line 823.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
- [13 <../figures/ex2-knn/error_uniform_(zoom).png> <../figures/ex2-knn/error_distance.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 627.
- [14 <../figures/ex2-knn/error_distance_(zoom).png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 627.
+<../figures/ex2-knn/cm_distance.png, id=380, 681.0243pt x 529.98pt>
+File: ../figures/ex2-knn/cm_distance.png Graphic file (type png)
+<use ../figures/ex2-knn/cm_distance.png>
+Package pdftex.def Info: ../figures/ex2-knn/cm_distance.png  used on input line 832.
+(pdftex.def)             Requested size: 312.9803pt x 243.5673pt.
+ [18 <../figures/ex2-knn/error_distance.png> <../figures/ex2-knn/error_distance_(zoom).png>]
+<../figures/ex2-knn/cm_distance_normalized.png, id=390, 677.6517pt x 529.98pt>
+File: ../figures/ex2-knn/cm_distance_normalized.png Graphic file (type png)
+<use ../figures/ex2-knn/cm_distance_normalized.png>
+Package pdftex.def Info: ../figures/ex2-knn/cm_distance_normalized.png  used on input line 839.
+(pdftex.def)             Requested size: 312.9803pt x 244.78033pt.
+ [19 <../figures/ex2-knn/cm_distance.png> <../figures/ex2-knn/cm_distance_normalized.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 886.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 886.
  (./efc2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 627.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 627.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 886.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 886.
 Package rerunfilecheck Info: File `efc2.out' has not changed.
-(rerunfilecheck)             Checksum: 4CE62F7551D1198489D1625B5FC1450C;702.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 627.
+(rerunfilecheck)             Checksum: 86BD94E8094EDB9DA04F24FFADF15D69;924.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 886.
  ) 
 Here is how much of TeX's memory you used:
- 8292 strings out of 492623
- 128959 string characters out of 6135669
- 242207 words of memory out of 5000000
- 11995 multiletter control sequences out of 15000+600000
+ 8509 strings out of 492623
+ 135169 string characters out of 6135669
+ 242366 words of memory out of 5000000
+ 12152 multiletter control sequences out of 15000+600000
  12644 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,40p,756b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,40p,831b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on efc2.pdf (14 pages, 3146582 bytes).
+Output written on efc2.pdf (20 pages, 5354532 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 489 words of extra memory for PDF output out of 10000 (max. 10000000)
 

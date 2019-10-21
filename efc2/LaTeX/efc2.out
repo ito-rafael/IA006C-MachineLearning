@@ -6,3 +6,6 @@
 \BOOKMARK [1][-]{section.3}{Part 2 - Multiclass Classification}{}% 6
 \BOOKMARK [2][-]{subsection.3.1}{a\) Logistic regression \(using softmax approach\)}{section.3}% 7
 \BOOKMARK [2][-]{subsection.3.2}{b\) k-Nearest Neighbors}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Uniform weights}{subsection.3.2}% 9
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Distance weights}{subsection.3.2}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Results and conclusion}{section.3}% 11

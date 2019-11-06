@@ -97,9 +97,23 @@ $ s_2 = f(u_2) $\\
 $ s_3 = f(u_3) $\\
 \vspace{0.1mm}\\
 $ y_1 = 1 \cdot w_{00} + s_1 \cdot w_{10} + s_2 \cdot w_{20} + s_3 \cdot w_{30} $\\
-$ y_2 = 1 \cdot w_{01} + s_1 \cdot w_{11} + s_2 \cdot w_{21} + s_3 \cdot w_{31} $
-
-
+$ y_2 = 1 \cdot w_{01} + s_1 \cdot w_{11} + s_2 \cdot w_{21} + s_3 \cdot w_{31} $\\
+\vspace{0.1mm}\\
+$ J = e_1^2 + e_2^2 $\\
+\vspace{0.1mm}\\
+$ \delta_3 = \dfrac{\partial J}{\partial u_3} = \dfrac{\partial [(d_1-y_1)^2+(d_2-y_2)^2]}{\partial u_3} $\\
+$ \delta_3 = \dfrac{\partial (d_1-y_1)^2}{\partial u_3} + \dfrac{\partial (d_2-y_2)^2}{\partial u_3} $\\
+$ \delta_3 = \dfrac{\partial (d_1-y_1)^2}{\partial (d_1-y_1)} \cdot \dfrac{\partial (d_1-y_1)}{\partial u_3} + \dfrac{\partial (d_2-y_2)^2}{\partial (d_2-y_2)} \cdot \dfrac{\partial (d_2-y_2)}{\partial u_3} $\\
+$ \delta_3 = 2(d_1-y_1) \cdot \left(-\dfrac{\partial y_1}{\partial u_3}\right) + 2(d_2-y_2) \cdot \left(-\dfrac{\partial y_2}{\partial u_3}\right) $\\
+$ \delta_3 = - 2(d_1-y_1) \cdot \dfrac{\partial y_1}{\partial s_3} \cdot \dfrac{\partial s_3}{\partial u_3} - 2(d_2-y_2) \cdot \dfrac{\partial y_2}{\partial s_3} \cdot \dfrac{\partial s_3}{\partial u_3} $\\
+$ \delta_3 = - 2(d_1-y_1) \cdot \dfrac{\partial (1 \cdot w_{00} + s_1 \cdot w_{10} + s_2 \cdot w_{20} + s_3 \cdot w_{30})}{\partial s_3} \cdot \dfrac{\partial f(u_3)}{\partial u_3} - 2(d_2-y_2) \cdot \dfrac{\partial (1 \cdot w_{01} + s_1 \cdot w_{11} + s_2 \cdot w_{21} + s_3 \cdot w_{31})}{\partial s_3} \cdot \dfrac{\partial f(u_3)}{\partial u_3} $\\
+$ \delta_3 = - 2(d_1-y_1)\dot{f}(u_3)w_{30} - 2(d_2-y_2)\dot{f}(u_3)w_{31} $\\
+\vspace{0.1mm}\\
+$ \dfrac{\partial J}{\partial v_{12}} = \dfrac{\partial J}{\partial u_3} \cdot \dfrac{\partial u_3}{\partial v_{12}} $\\
+$ \dfrac{\partial J}{\partial v_{12}} = \dfrac{\delta_3 \cdot \partial(1 \cdot v_{02} + x_1 \cdot v_{12} + x_2 \cdot v_{22})}{\partial v_{12}} $\\
+$ \dfrac{\partial J}{\partial v_{12}} = \delta_3 \cdot x_1 $\\
+$ \dfrac{\partial J}{\partial v_{12}} = -2x_1\dot{f}(u_3)[w_{30}(d_1-y_1) + w_{31}(d_2-y_2)] $\\
+\vspace{0.1mm}\\
 
 %=================================================
 \section{Part 2 - Multiclass Classification}

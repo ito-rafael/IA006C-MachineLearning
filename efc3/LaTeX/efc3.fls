@@ -71,8 +71,8 @@ INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/share/texmf-dist/tex/latex/ms/ragged2e.sty
-INPUT /usr/share/texmf-dist/tex/latex/ms/ragged2e.sty
+INPUT /usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 INPUT /usr/share/texmf-dist/tex/latex/ms/everysel.sty
 INPUT /usr/share/texmf-dist/tex/latex/ms/everysel.sty
 INPUT efc3.aux
@@ -132,6 +132,7 @@ INPUT ./efc3.out
 INPUT ./efc3.out
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb

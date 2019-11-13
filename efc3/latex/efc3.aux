@@ -1,0 +1,107 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\bbl@beforestart
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\babel@aux{english}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Source files}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{All code cited and all figures showed here can be found at the following GitHub repository:\\ \url  {https://github.com/ito-rafael/IA006C-MachineLearning/tree/master/efc3}\\ In this repository, one can found the following files:\\}{2}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{The notebook ``MLP'' implements a multi-layer perceptron network used for binary classification. Here, we use different numbers of neurons, plot the decision regions and also calculate some metrics to evaluate the overall performance.}{2}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{The notebook ``SVM'' uses the same dataset and also implements a binary classifier, but it does this using a support vector machine. Here, we plot the decision regions as well, but this time we vary the value of the hyperparameter C and also the value gamma used in a RBF kernel.}{2}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Part I - Error backpropagation}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Part II - Binary Classification with MLP and SVMs}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Multi-layer Perceptron (MLP)}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \relax }}{3}{figure.caption.5}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:mlp-raw_data}{{2}{3}{\relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \relax }}{3}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:mlp-training_validation_loss}{{3}{3}{\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \relax }}{4}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:mlp-decision_regions}{{4}{4}{\relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \relax }}{4}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:mlp-roc_curve}{{5}{4}{\relax }{figure.caption.8}{}}
+\newlabel{fig:mlp-5_neurons}{{6a}{5}{5 neurons\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:mlp-5_neurons}{{a}{5}{5 neurons\relax }{figure.caption.9}{}}
+\newlabel{fig:mlp-25_neurons}{{6b}{5}{25 neurons\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:mlp-25_neurons}{{b}{5}{25 neurons\relax }{figure.caption.9}{}}
+\newlabel{fig:mlp-75_neurons}{{6c}{5}{75 neurons\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:mlp-75_neurons}{{c}{5}{75 neurons\relax }{figure.caption.9}{}}
+\newlabel{fig:mlp-100_neurons}{{6d}{5}{100 neurons\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:mlp-100_neurons}{{d}{5}{100 neurons\relax }{figure.caption.9}{}}
+\newlabel{fig:mlp-300_neurons}{{6e}{5}{300 neurons\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:mlp-300_neurons}{{e}{5}{300 neurons\relax }{figure.caption.9}{}}
+\newlabel{fig:mlp-1000_neurons}{{6f}{5}{1000 neurons\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:mlp-1000_neurons}{{f}{5}{1000 neurons\relax }{figure.caption.9}{}}
+\newlabel{fig:mlp-5000_neurons}{{6g}{5}{5000 neurons\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:mlp-5000_neurons}{{g}{5}{5000 neurons\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Decision regions for MLP with different number of neurons\relax }}{5}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:mlp-decision_regions_N_neurons}{{6}{5}{Decision regions for MLP with different number of neurons\relax }{figure.caption.9}{}}
+\newlabel{fig:mlp-5_roc}{{7a}{5}{5 neurons\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:mlp-5_roc}{{a}{5}{5 neurons\relax }{figure.caption.10}{}}
+\newlabel{fig:mlp-25_roc}{{7b}{5}{25 neurons\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:mlp-25_roc}{{b}{5}{25 neurons\relax }{figure.caption.10}{}}
+\newlabel{fig:mlp-75_roc}{{7c}{5}{75 neurons\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:mlp-75_roc}{{c}{5}{75 neurons\relax }{figure.caption.10}{}}
+\newlabel{fig:mlp-100_roc}{{7d}{5}{100 neurons\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:mlp-100_roc}{{d}{5}{100 neurons\relax }{figure.caption.10}{}}
+\newlabel{fig:mlp-300_roc}{{7e}{5}{300 neurons\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:mlp-300_roc}{{e}{5}{300 neurons\relax }{figure.caption.10}{}}
+\newlabel{fig:mlp-1000_roc}{{7f}{5}{1000 neurons\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:mlp-1000_roc}{{f}{5}{1000 neurons\relax }{figure.caption.10}{}}
+\newlabel{fig:mlp-5000_roc}{{7g}{5}{5000 neurons\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:mlp-5000_roc}{{g}{5}{5000 neurons\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces ROC curves for MLP with different number of neurons\relax }}{5}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:mlp-ROC_N_neurons}{{7}{5}{ROC curves for MLP with different number of neurons\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \relax }}{6}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:mlp-roc_comparasion}{{8}{6}{\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Support Vector Machine (SVM)}{7}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Decision regions\relax }}{7}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:svm-decision_regions}{{9}{7}{Decision regions\relax }{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Support vectors\relax }}{7}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:svm-support_vectors}{{10}{7}{Support vectors\relax }{figure.caption.13}{}}
+\newlabel{fig:svm-decision_region_C_0d1}{{11a}{8}{Decision regions for C = 0.1\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:svm-decision_region_C_0d1}{{a}{8}{Decision regions for C = 0.1\relax }{figure.caption.14}{}}
+\newlabel{fig:svm-support_vectors_C_0d1}{{11b}{8}{Support vectors for C = 0.1\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:svm-support_vectors_C_0d1}{{b}{8}{Support vectors for C = 0.1\relax }{figure.caption.14}{}}
+\newlabel{fig:svm-decision_region_C_1}{{11c}{8}{Decision regions for C = 1.0\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:svm-decision_region_C_1}{{c}{8}{Decision regions for C = 1.0\relax }{figure.caption.14}{}}
+\newlabel{fig:svm-support_vectors_C_1}{{11d}{8}{Support vectors for C = 1.0\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:svm-support_vectors_C_1}{{d}{8}{Support vectors for C = 1.0\relax }{figure.caption.14}{}}
+\newlabel{fig:svm-decision_region_C_20}{{11e}{8}{Decision regions for C = 20\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:svm-decision_region_C_20}{{e}{8}{Decision regions for C = 20\relax }{figure.caption.14}{}}
+\newlabel{fig:svm-support_vectors_C_20}{{11f}{8}{Support vectors for C = 20\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:svm-support_vectors_C_20}{{f}{8}{Support vectors for C = 20\relax }{figure.caption.14}{}}
+\newlabel{fig:svm-decision_region_C_1000}{{11g}{8}{Decision regions for C = 1000\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:svm-decision_region_C_1000}{{g}{8}{Decision regions for C = 1000\relax }{figure.caption.14}{}}
+\newlabel{fig:svm-support_vectors_C_1000}{{11h}{8}{Support vectors for C = 1000\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:svm-support_vectors_C_1000}{{h}{8}{Support vectors for C = 1000\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Decision regions and respective support vectors for different values of hyperparameter C\relax }}{8}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:svm-decision_regions_support_vectos_C}{{11}{8}{Decision regions and respective support vectors for different values of hyperparameter C\relax }{figure.caption.14}{}}
+\newlabel{fig:svm-decision_region_gamma_0d1}{{12a}{9}{Decision regions for gamma = 0.1\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:svm-decision_region_gamma_0d1}{{a}{9}{Decision regions for gamma = 0.1\relax }{figure.caption.15}{}}
+\newlabel{fig:svm-support_vectors_gamma_0d1}{{12b}{9}{Support vectors for gamma = 0.1\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:svm-support_vectors_gamma_0d1}{{b}{9}{Support vectors for gamma = 0.1\relax }{figure.caption.15}{}}
+\newlabel{fig:svm-decision_region_gamma_1}{{12c}{9}{Decision regions for gamma = 1.0\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:svm-decision_region_gamma_1}{{c}{9}{Decision regions for gamma = 1.0\relax }{figure.caption.15}{}}
+\newlabel{fig:svm-support_vectors_gamma_1}{{12d}{9}{Support vectors for gamma = 1.0\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:svm-support_vectors_gamma_1}{{d}{9}{Support vectors for gamma = 1.0\relax }{figure.caption.15}{}}
+\newlabel{fig:svm-decision_region_gamma_10}{{12e}{9}{Decision regions for gamma = 10\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:svm-decision_region_gamma_10}{{e}{9}{Decision regions for gamma = 10\relax }{figure.caption.15}{}}
+\newlabel{fig:svm-support_vectors_gamma_10}{{12f}{9}{Support vectors for gamma = 10\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:svm-support_vectors_gamma_10}{{f}{9}{Support vectors for gamma = 10\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Decision regions and respective support vectors for different values of hyperparameter gamma in kernel function\relax }}{9}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:svm-decision_regions_support_vectos_gamma}{{12}{9}{Decision regions and respective support vectors for different values of hyperparameter gamma in kernel function\relax }{figure.caption.15}{}}

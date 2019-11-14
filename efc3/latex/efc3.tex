@@ -127,33 +127,92 @@ $ \boxed{ \dfrac{\partial J}{\partial v_{12}} = -2x_1\dot{f}(u_3)[w_{30}(d_1-y_1
 \subsection{Multi-layer Perceptron (MLP)}
 %=================================================
 
+%--------------------------------------
+\subsubsection{a) MLP network}
+%--------------------------------------
+
+\paragraph{The MLP network was implemented with the scikit-learn ``MLPClassifier'' class. This model optimizes the log-loss function. The parameters of the network were constantly modified in order to tune the classifier. The final configuration was:}
+
+\paragraph{Parameters:}
+\begin{itemize}
+    \item number of neurons: 50
+    \item activation: relu
+    \item solver: adam
+    \item alpha: 0.01
+    \item batch\_size: 200
+    \item random\_state: 42
+    \item tol: 1e-3
+    \item max\_iter: 1
+    \item warm\_start: True
+    \item beta\_1: 0.9
+    \item beta\_2: 0.95
+    \item epsilon: 1e-8
+    \item n\_iter\_no\_change: 10
+\end{itemize}
+
+\paragraph{To determine the number of neurons, we trained the network with different number of neurons, choosing a reasonable value with a good generalization (not few neurons, avoiding an underfitting, not too many, avoiding overfitting, this will be clear in Figure \ref{fig:mlp-decision_regions_N_neurons}). 
+    The batch size was chosen to be 200, which represents 20\% of the training data, this means that for each epoch we would have 5 updates in the algorithm.
+    The rectifier function was chosen to be the activation function, so each unit is what is called a ReLU. 
+    The solver used is adam, with parameters values of 0.9, 0.95 and 1e-8 for beta\_1, beta\_2 and epsilon, respectively. 
+    We are also using a seed to generate pseudo-random numbers, so the results showed here can all be exactly replicated. 
+    Another important thing to note is that the max\_iter parameter is 1 because we are training the network iteration by iteration. This is done in order to plot the progression of the cost function during the training and during the validation. For this to work, we use warm\_start as True.    The tolerance used is 1e-3 and the alpha (regularization coefficient) is 0.01.}
+
+\paragraph{The network was trained with the parameters showed previously. Here we explored the early stopping as a cross validation method along the validation set. The training data can be seen in Figure \ref{fig:mlp-raw_data} and the progression of the cost function for training and validation can be seen in Figure \ref{fig:mlp-training_validation_loss}.}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{raw_data}
-    \caption{}
+    \caption{Training set}
     \label{fig:mlp-raw_data}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{training_validation_loss}
-    \caption{}
+    \caption{Progression of cost function in training and validation}
     \label{fig:mlp-training_validation_loss}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=12cm]{mlp_decision_region}
-    \caption{}
-    \label{fig:mlp-decision_regions}
-\end{figure}
+\paragraph{In Figure \ref{fig:mlp-roc_curve} we can see the ROC curve for this classifier.}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{ROC_curve}
-    \caption{}
+    \caption{ROC curve for 50 neurons}
     \label{fig:mlp-roc_curve}
 \end{figure}
+
+%--------------------------------------
+\subsubsection{b) MLP decision regions}
+%--------------------------------------
+
+\paragraph{A function was created to plot the decision regions. This function receives as parameters the dataset and the model. The dataset is used only to define the limits of the plot and the predict method of the model is used to determine the label of each division of the grid. The Figure \ref{fig:mlp-decision_regions} shows the decision regions for this MLP classifier.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{mlp_decision_region}
+    \caption{Decision regions for MLP with 50 neurons}
+    \label{fig:mlp-decision_regions}
+\end{figure}
+
+%--------------------------------------
+\subsubsection{c) Applying MLP model to test set}
+%--------------------------------------
+
+\paragraph{We then applied the trained network in the test set. The output generated can be seen in Figure \ref{fig:mlp-test_set_output}. The accuracy was 0.879, indicating an error of 12.1\%.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{mlp_test_set_output}
+    \caption{MLP predicted output for test set}
+    \label{fig:mlp-test_set_output}
+\end{figure}
+
+%--------------------------------------
+\subsubsection{d) Experimenting network with different number of neurons}
+%--------------------------------------
+
+\paragraph{We then tried networks with different number of neurons. 5, 25, 75, 100, 300, 1000 and 5000 neurons were utilized. Figure \ref{fig:mlp-decision_regions_N_neurons} shows the decisions regions for these classifiers and Figure \ref{fig:mlp-ROC_N_neurons} shows the ROC curves.}
 
 %-------------------------------------------------
 %\newpage
@@ -222,10 +281,6 @@ $ \boxed{ \dfrac{\partial J}{\partial v_{12}} = -2x_1\dot{f}(u_3)[w_{30}(d_1-y_1
     \label{fig:mlp-decision_regions_N_neurons}
 \end{figure}
 %-------------------------------------------------
-
-
-
-%-------------------------------------------------
 %\newpage
 % ROC curve for different number of neurons
 
@@ -293,17 +348,51 @@ $ \boxed{ \dfrac{\partial J}{\partial v_{12}} = -2x_1\dot{f}(u_3)[w_{30}(d_1-y_1
 \end{figure}
 %-------------------------------------------------
 
+\paragraph{As expected, for networks with few neurons (5 or 25), the model does not have flexibility for separate the classes (underfitting). The opposite is also true, the network with 5000 neurons ``learned'' too much from the dataset compromising the generalization (overfitting). The networks with 75, 100 and 300 neurons presented satisfied results.}
+
+\paragraph{In Figure \ref{fig:mlp-roc_comparasion} we plot all ROC curves under a single plot. This way we can compare the classifiers.}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{ROC_comparasion}
-    \caption{}
+    \caption{Comparison of ROC curves}
     \label{fig:mlp-roc_comparasion}
 \end{figure}
+
+\paragraph{We also present in Table \ref{tab:results} other metrics used to evaluate the classifiers. Accuracy in test set, F1-score and area under the ROC curve were calculated. Since the dataset is quite balanced, we are using the simple F1-score, instead of micro and macro.}
+
+\begin{table}[H]
+    \begin{center}
+        \begin{tabular}{ r|c|c|c|} 
+            \cline{2-4}
+              & Accuracy & F1-score & ROC area \\
+            \cline{2-4}
+%            \multirow{2}{4em}{zero-one loss}& cell4 & cell5 & cell6 \\
+               5 neurons & 0.733 & 0.762 & 0.7951 \\
+              25 neurons & 0.858 & 0.858 & 0.9305 \\
+              50 neurons & 0.881 & 0.881 & 0.9477 \\
+              75 neurons & 0.870 & 0.868 & 0.9430 \\ 
+             100 neurons & 0.870 & 0.866 & 0.9415 \\
+             300 neurons & 0.872 & 0.870 & 0.9434 \\
+            1000 neurons & 0.877 & 0.875 & 0.9427 \\
+            5000 neurons & 0.860 & 0.858 & 0.9376 \\
+            \cline{2-4}
+        \end{tabular}
+    \end{center}
+    \caption{Comparison of results between networks with different number of neurons}
+    \label{tab:results}
+\end{table}
 
 \newpage
 %=================================================
 \subsection{Support Vector Machine (SVM)}
 %=================================================
+
+%--------------------------------------
+\subsubsection{e) SVM decision regions and support vectors}
+%--------------------------------------
+
+\paragraph{We now developed a SVM to do the classification. To find the hyperparameter C we used cross-validation sweeping C from 0.1 until 10 in steps of 0.1. The C for minimum error in validation set found was 8.3. The Figure \ref{fig:svm-decision_regions} shows the decision regions for this value of C plotted with the same function used in the MLP. In Figure \ref{fig:svm-support_vectors} we can see the support vectors identified.}
 
 \begin{figure}[H]
     \centering
@@ -319,6 +408,24 @@ $ \boxed{ \dfrac{\partial J}{\partial v_{12}} = -2x_1\dot{f}(u_3)[w_{30}(d_1-y_1
     \label{fig:svm-support_vectors}
 \end{figure}
 
+%--------------------------------------
+\subsubsection{f) Applying SVM model to test set}
+%--------------------------------------
+
+\paragraph{We then used the model along with the test set. Figure \ref{fig:svm-test_set_output} shows the output generated for each data. The accuracy obtained was 0.877, indicating an error of 12.3\%.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{svm_test_set_output}
+    \caption{SVM predicted output for test set}
+    \label{fig:svm-test_set_output}
+\end{figure}
+
+%--------------------------------------
+\subsubsection{g) Experimenting different kernel parameters and values of C}
+%--------------------------------------
+
+\paragraph{We now used different values of the hyperparameter C to see what impact this would cause in the classifier. In Figure \ref{fig:svm-decision_regions_support_vectos_C} we can see the decision regions and the respective support vectors for values of C equal to 0.1, 1, 20 and 1000.}
 
 %-------------------------------------------------
 %\newpage
@@ -398,8 +505,10 @@ $ \boxed{ \dfrac{\partial J}{\partial v_{12}} = -2x_1\dot{f}(u_3)[w_{30}(d_1-y_1
 \end{figure}
 %-------------------------------------------------
 
+\paragraph{We can see that for small values of C, we don't give flexibility to the model, suggesting an underfitting. In fact, what we are doing is giving a small weight for the points that invade the border. This produces a rough division in the dataset. We can see that the support vectors are all data near the border.
+    The opposite, occurs for example with C = 1000. We are penalizing so much the points that invade the border, that the model will try to fit all data from the training set, leading to an overfitting. This will try to keep only the data very close to the border to be the support vectors.}
 
-
+\paragraph{We now change the parameter gamma of the Radial Basis Function (RBF) kernel. Values of 0.1, 1 and 10 were used. Figure \ref{fig:svm-decision_regions_support_vectos_gamma} shows the decision regions and the support vectors identified.}
 
 %-------------------------------------------------
 %\newpage
@@ -479,6 +588,7 @@ $ \boxed{ \dfrac{\partial J}{\partial v_{12}} = -2x_1\dot{f}(u_3)[w_{30}(d_1-y_1
 \end{figure}
 %-------------------------------------------------
 
+\paragraph{A similar effect observed with hyperparameter C can be seen here. For small values of gamma, we have a very soft margin, producing a rough classifier and suggesting an underfitting. For gamma equal to 10, the model bent itself to fit almost all data. This leads to a significant generalization loss, indicating an overfitting. Gamma = 1.0 seems to generate a reasonable classifier.}
 
 %=================================================
 \end{document}

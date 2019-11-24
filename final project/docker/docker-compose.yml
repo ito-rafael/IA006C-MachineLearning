@@ -2,9 +2,12 @@ version: '3.7'
 services:
   jupyter:
     image: jupyter/tensorflow-notebook
-    volumes:
-      - /home/rafael/RAFAEL/git/IA006C-MachineLearning:/home/jovyan
-#      - /root/ito/IA006C-MachineLearning/final\ project:/home/jovyan  
+#    volumes:
+#      - /home/rafael/RAFAEL/git/IA006C-MachineLearning:/home/jovyan
+#        - /home/con-srv/ito/IA006C-MachineLearning:/home/jovyan:ro
+    environment:
+      GRANT_SUDO: "yes"
+    user: root
     networks:
       hostnet: {}
     dns:
@@ -13,8 +16,8 @@ services:
     deploy:
       placement:
         constraints:
-          - node.hostname == lnls136
-          #- node.hostname == LA-RaCtrl-CO-Srv-1
+#          - node.hostname == lnls136
+          - node.hostname == LA-RaCtrl-CO-Srv-1
       replicas: 1
       restart_policy:
         condition: on-failure

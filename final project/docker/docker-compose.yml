@@ -1,12 +1,10 @@
 version: '3.7'
 services:
   jupyter:
-    image: jupyter/scipy-notebook
+    image: jupyter/tensorflow-notebook
     volumes:
-      - /home/rafael/RAFAEL/git/IA006C-MachineLearning/final\ project:/opt/final\ project  
-      #- /root/ito/IA006C-MachineLearning/final\ project:/opt/final\ project  
-    ports:
-      - "10000:8888"
+      - /home/rafael/RAFAEL/git/IA006C-MachineLearning:/home/jovyan
+#      - /root/ito/IA006C-MachineLearning/final\ project:/home/jovyan  
     networks:
       hostnet: {}
     dns:

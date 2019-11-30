@@ -2,32 +2,38 @@ version: '3.7'
 services:
   jupyter:
     image: jupyter/tensorflow-notebook
-#    volumes:
+    volumes:
 #      - /home/rafael/RAFAEL/git/IA006C-MachineLearning:/home/jovyan
-#        - /home/con-srv/ito/IA006C-MachineLearning:/home/jovyan:ro
+        - /home/con-srv/ito:/home/jovyan/ito:rw
+    deploy:
+      resources:
+        limits:
+          cpus: '62'
+          memory: 300G
     environment:
       GRANT_SUDO: "yes"
     user: root
-    networks:
-      hostnet: {}
+#    networks:
+#      hostnet: {}
+    network_mode: 'host'
     dns:
       - 10.0.0.71
       - 10.0.0.72
-    deploy:
-      placement:
-        constraints:
+#    deploy:
+#      placement:
+#        constraints:
 #          - node.hostname == lnls136
-          - node.hostname == LA-RaCtrl-CO-Srv-1
-      replicas: 1
-      restart_policy:
-        condition: on-failure
+#          - node.hostname == LA-RaCtrl-CO-Srv-1
+#      replicas: 1
+#      restart_policy:
+#        condition: on-failure
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "10"
 
-networks:
-  hostnet:
-    external: true
-    name: host
+#networks:
+#  hostnet:
+#    external: true
+#    name: host
